@@ -14,7 +14,7 @@ public partial class _Default : System.Web.UI.Page
     int k = 1;
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        TextBox1.Text = "Toca me :3";
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
