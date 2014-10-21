@@ -19,8 +19,14 @@ public partial class _Default : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         if (i == 0)
+        {
             TextBox1.Text = "Hola Juan (¬_¬)...";
-        else
-            TextBox1.Text = "Ya lo viste veces="+k+" tajaditas (u_u)";
+            i = 1;
+        }
+        else if (i == 1)
+        {
+            TextBox1.Text = "Ya lo viste veces=" + k + " tajaditas (u_u)";
+            i = 0;
+        }
     }
 }
