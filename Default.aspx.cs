@@ -10,12 +10,17 @@ using System.Web.UI.HtmlControls;
 
 public partial class _Default : System.Web.UI.Page 
 {
+    int i = 0;
+    int k = 1;
     protected void Page_Load(object sender, EventArgs e)
     {
 
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        TextBox1.Text = "Hola Juan (¬_¬)...";
+        if (i == 0)
+            TextBox1.Text = "Hola Juan (¬_¬)...";
+        else
+            TextBox1.Text = "Ya lo viste veces="+k+" tajaditas (u_u)";
     }
 }
