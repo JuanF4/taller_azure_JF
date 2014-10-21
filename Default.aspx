@@ -11,7 +11,9 @@
     <div>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
         <asp:TextBox ID="TextBox1" runat="server" Width="595px"></asp:TextBox>
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></div>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Image ID="Image174" runat="server" Height="383px" ImageUrl="http://www.medciencia.com/wp-content/uploads/2014/10/supernova-408268-680x510.jpg"
+            Width="681px" /></div>
     </form>
 </body>
 </html>
